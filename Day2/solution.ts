@@ -15,7 +15,6 @@ const getInvalidIds = (start: number, end: number): number[] => {
     return invalidIds;
 }
 
-//23560874270
 const text = await Deno.readTextFile("./input.txt");
 
 const ranges = text.split(",").map((line) => line.trim());
